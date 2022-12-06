@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+nav{
+    font-size: 32px;
+    background: #011927;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
