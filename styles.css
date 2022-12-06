@@ -14,3 +14,67 @@ nav ul{
     display: flex;
     list-style-type: none;
 }
+nav ul li{
+    padding: 10px;
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+    cursor: pointer;
+    color: #fff;
+    transition: .5s;
+}
+nav ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+nav ul li:hover{
+    background: #fff;
+    color: #000;
+}
+.hero-image{
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.8)), url(https://images.unsplash.com/photo-1602852169485-11c1710461b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c3RvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    height: calc(100vh - 56px);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text{
+    color:rgb(238, 192, 192);
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: grid;
+    /*I had wanted it to utilize the flex to space out the 
+    words here but the effect was one I found interesting 
+    so I decided to keep it this way
+    Now I am not sure which I like more.*/
+}
+.hero-text h1{
+    font-size: 50px;
+}
+.hero-btn{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(241, 181, 181);
+    padding: 10px 30px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    transition: .5s
+}
+.hero-btn:hover{
+    background: black;
+    color: rgb(228, 129, 129);
+}
+@media screen and (max-width: 600px){
+    nav ul{
+        flex-direction: column;
+    }
+    .hero-image{
+        height: calc(100vh - 224px)
+    }
+}
