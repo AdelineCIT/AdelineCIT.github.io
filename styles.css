@@ -9,6 +9,10 @@ body{
 nav{
     font-size: 32px;
     background: #011927;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 nav ul{
     display: flex;
