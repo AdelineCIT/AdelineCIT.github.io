@@ -82,3 +82,33 @@ nav ul li:hover{
         height: calc(100vh - 224px)
     }
 }
+.project-image{
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)), url(https://plus.unsplash.com/premium_photo-1668285596396-ea6fddd1aff0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3RvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    height: calc(100vh - 56px);
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: stretch;
+}
+.project-text{
+    color:rgb(33, 11, 75);
+    text-align: left;
+    padding: 10px;
+    display: grid;
+    font-size: 25px;
+    justify-content: left;
+    align-items: left;
+}
+.project-text h1{
+    font-size: 75px;
+}
+.project-text p{
+    font-size: 30px;
+}
+ul li{
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+    justify-content: left;
+}
