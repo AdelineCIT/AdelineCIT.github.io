@@ -11,7 +11,6 @@ nav{
     background: #011927;
     overflow: hidden;
     position: fixed;
-    bottom: 0;
     width: 100%;
 }
 nav ul{
@@ -93,12 +92,12 @@ nav ul li:hover{
 }
 .project-text{
     color:rgb(188, 177, 209);
-    text-align: start;
+    text-align: center;
     padding: 5px;
     display: grid;
     font-size: 25px;
-    justify-content: start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
 }
 .project-text h1{
     font-size: 50px;
@@ -173,10 +172,16 @@ a:active{
 }
 .about-text{
     color:rgb(241, 159, 52);
-    text-align: left;
+    text-align: center;
     padding: 15px;
-    display: flexbox;
-    font-size: 15px;
-    justify-content: normal;
+    display: grid;
+    font-size: 20px;
+    justify-content: center;
     align-items: center;
+}
+footer{
+    color:rosybrown;
+    display:flex;
+    position: relative;
+    font-size: 30px;
 }
