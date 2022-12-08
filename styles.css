@@ -112,3 +112,33 @@ ul li{
     
     justify-content: left;
 }
+.contact-image{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(https://images.unsplash.com/photo-1519458524098-335b2a5747b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fG91dGRvb3J8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    height: calc(100vh - 56px);
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: stretch;
+}
+.contact-text{
+    color:rgb(146, 202, 56);
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.contact-text h1{
+    font-size: 50px;
+}
+.contact-text p{
+    font-size: 30px;
+}
+.contact ul li{
+    list-style-type: none;
+    display: grid;
+    text-decoration: none;
+    justify-content: center;
+}
